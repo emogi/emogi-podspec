@@ -146,7 +146,7 @@ Pod::Spec.new do |s|
 
   s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
                   "OTHER_LDFLAGS" => "-all_load -ObjC"}
-  s.dependency "SDWebImage", "~> 5.9.2"
+  s.dependency "SDWebImage", "~> 5.10.4"
 
   # Adding tests with a swift dependency is a workaround in order to make pod lib lint work
   # See: https://github.com/CocoaPods/CocoaPods/issues/8649
